@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- Amsi Cazares,09/22/25-->
+<html lang="en">
+	<head>
+		<title> Cascading Style Sheet </title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="CSSdemo.css" type="text/css">
+		<style>
+			p {background-color: black;
+				color: white;}
+			.groupstyles {background-color: yellow;
+				color: purple;}
+				
+			#idstyle {background-color: blue;}
+			
+			.spanclass {color: red;}
+			
+			footer {color: blue;}
+			
+			footer p {color: blue;}
+		</style>
+	</head>
+	
+	<body> 
+		<h1> Cascading Style Sheet </h1> 
+		<h2> CSS Methods </h2> 
+		<ol>
+			<li> Browser Default </li>
+			<li> External Styes </li>
+			<li> Embedded Styles </li>
+			<li> Imported Styles </li>
+			<li> Inline Styles </li>
+		</ol>
+		
+		<p class="groupstyles"> External-- coded as a separate file </p>
+		<p> Embedded-- defined in the head section of the website </p>
+		<p> Imported-- brought in from somehwere else </p>
+		<p style="background-color: orange;> Inline-- coded in the body of the page, as an attribute of an HTML tag</p>
+		
+		<h2 class="groupstyles"> Classes </h2>
+		<p> Classes allow you <span class="spanclass"> to create a group </span> that have the same properties </p>
+		
+		<h2 id="idstyle"> IDs </h2>
+		<p> IDs allow you to classify one specific element </p>
+		
+		<footer>
+			<p> name </p>
+			<p> address </p> 
+			<p> email </p>
+			copyright info
+		</footer>
+	</body>
+</html>
